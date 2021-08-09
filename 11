@@ -1,0 +1,46 @@
+11.Create an HTML page, which should contain all types of input elements.
+
+<form action="xyz@gmail.com" method="POST" enctype="text/plain">  
+    <!--TEXT-->
+    <label>User name:</label><br>  
+    <input type="text" name="username"><br>
+    <!--PASSWORD-->
+    <label>Password:</label><br>  
+    <input type="Password" name="password"><br> 
+    <!--SUBMIT--> 
+    <input type="submit" value="SUBMIT">
+    <!--RESET-->
+    <input type="reset" value="RESET"><br>
+    <!--RADIO-->
+    <label>Gender:</label><br>
+    <input type="radio" value="Male">Male<br>
+    <input type="radio" value="Female">Female<br>
+    <!--CHECKBOX-->
+    <label>Select your degree:</label><br>
+    <input type="checkbox"  value="BE">BE<br>  
+    <input type="checkbox"  value="BBA">BBA<br>  
+    <input type="checkbox"  value="BCA">BCA<br>  
+    <!--BUTTON-->
+    <input type="button" onclick="alert('WARNING!')" value="EXIT"><br>
+    <!--FILE-->
+    <input type="file" name="new">  
+    <input type="submit" value="SUBMIT"><br>
+    <!--IMAGE-->
+    <input type="image" alt="LOGO" src="https://wallpapercave.com/wp/wp1828920.jpg" width="250"><br>
+    <!--COLOR-->
+    <input type="color" name="Select color" value="#a52a2a">Choose Color<br>
+    <!--DATE-->
+    <input type="date" name="DOB">Select DOB<br>
+    <!--DATE TIME-->
+    <input type="datetime-local" name="present time">Select Time<br>
+    <!--EMAIL-->
+    <label>Enter your mail id:</label><br>
+    <input type="email" name="mailid"><br>
+    <!--URL-->
+    <label>Enter your website:</label><br>
+    <input type="url" name="website" placeholder="http://example.com"><br>  
+    <!--NUMBER-->
+    <label>Enter your mobile number:</label>
+    <input type="number" name="num" min="50" max="80">  
+</form>
+
